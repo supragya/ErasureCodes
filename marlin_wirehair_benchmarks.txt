@@ -1,0 +1,114 @@
+WIREHAIR Erasure Channel Benchmarks for Marlin Protocol
+RUNNING GENERAL PERFORMANCE BENCHMARKS
+---------------------- BENCHMARK ------------------------ 
+Benchmark Messagelen (KB): 51200 with chunksize (KB): 2048
+Encoder Runs: 2
+Packet losses per encode: 2% 8% 14% 25% 35% 
+Message integrity prior to run: 6717182910
+Redundancy selected: 1.6
+No. of pure message chunks: 25
+No. of encoded chunks to generate: 40
+>> EncoderRun 0
+Encode timelines: excl obj creation: 67894 microsecs, incl obj creation: 406695 microsecs
+>>>> DecoderRun 0 for 2% packet loss; 39 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 414764 microsecs; dec object creation: 12 microsecs; dec populate: 371142 microsecs; dec buffer retrieval: 43609 microsecs
+>>>> DecoderRun 1 for 8% packet loss; 36 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 413386 microsecs; dec object creation: 16 microsecs; dec populate: 377750 microsecs; dec buffer retrieval: 35619 microsecs
+>>>> DecoderRun 2 for 14% packet loss; 34 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 409815 microsecs; dec object creation: 13 microsecs; dec populate: 370997 microsecs; dec buffer retrieval: 38804 microsecs
+>>>> DecoderRun 3 for 25% packet loss; 30 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 406954 microsecs; dec object creation: 16 microsecs; dec populate: 362671 microsecs; dec buffer retrieval: 44266 microsecs
+>>>> DecoderRun 4 for 35% packet loss; 26 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 429784 microsecs; dec object creation: 19 microsecs; dec populate: 387774 microsecs; dec buffer retrieval: 41990 microsecs
+>> EncoderRun 1
+Encode timelines: excl obj creation: 51680 microsecs, incl obj creation: 390481 microsecs
+>>>> DecoderRun 0 for 2% packet loss; 39 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 393529 microsecs; dec object creation: 23 microsecs; dec populate: 357478 microsecs; dec buffer retrieval: 36026 microsecs
+>>>> DecoderRun 1 for 8% packet loss; 36 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 394290 microsecs; dec object creation: 19 microsecs; dec populate: 359352 microsecs; dec buffer retrieval: 34918 microsecs
+>>>> DecoderRun 2 for 14% packet loss; 34 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 408978 microsecs; dec object creation: 20 microsecs; dec populate: 372313 microsecs; dec buffer retrieval: 36644 microsecs
+>>>> DecoderRun 3 for 25% packet loss; 30 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 397568 microsecs; dec object creation: 42 microsecs; dec populate: 358353 microsecs; dec buffer retrieval: 39172 microsecs
+>>>> DecoderRun 4 for 35% packet loss; 26 of 40 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 425212 microsecs; dec object creation: 28 microsecs; dec populate: 383703 microsecs; dec buffer retrieval: 41480 microsecs
+--------------------------------------------------------- 
+RUNNING BITCOING AND ETHEREUM SIMULATIONS FOR MARLIN
+---------------------- BENCHMARK ------------------------ 
+Benchmark Messagelen (KB): 30 with chunksize (KB): 1
+Encoder Runs: 3
+Packet losses per encode: 2% 8% 14% 25% 35% 
+Message integrity prior to run: 7772986
+Redundancy selected: 1.8
+No. of pure message chunks: 30
+No. of encoded chunks to generate: 54
+>> EncoderRun 0
+Encode timelines: excl obj creation: 44 microsecs, incl obj creation: 253 microsecs
+>>>> DecoderRun 0 for 2% packet loss; 52 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 231 microsecs; dec object creation: 34 microsecs; dec populate: 169 microsecs; dec buffer retrieval: 26 microsecs
+>>>> DecoderRun 1 for 8% packet loss; 49 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 220 microsecs; dec object creation: 28 microsecs; dec populate: 174 microsecs; dec buffer retrieval: 17 microsecs
+>>>> DecoderRun 2 for 14% packet loss; 46 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 216 microsecs; dec object creation: 36 microsecs; dec populate: 162 microsecs; dec buffer retrieval: 17 microsecs
+>>>> DecoderRun 3 for 25% packet loss; 40 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 193 microsecs; dec object creation: 23 microsecs; dec populate: 157 microsecs; dec buffer retrieval: 11 microsecs
+>>>> DecoderRun 4 for 35% packet loss; 35 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 211 microsecs; dec object creation: 26 microsecs; dec populate: 171 microsecs; dec buffer retrieval: 13 microsecs
+>> EncoderRun 1
+Encode timelines: excl obj creation: 30 microsecs, incl obj creation: 239 microsecs
+>>>> DecoderRun 0 for 2% packet loss; 52 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 220 microsecs; dec object creation: 37 microsecs; dec populate: 163 microsecs; dec buffer retrieval: 19 microsecs
+>>>> DecoderRun 1 for 8% packet loss; 49 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 230 microsecs; dec object creation: 24 microsecs; dec populate: 181 microsecs; dec buffer retrieval: 24 microsecs
+>>>> DecoderRun 2 for 14% packet loss; 46 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 263 microsecs; dec object creation: 28 microsecs; dec populate: 211 microsecs; dec buffer retrieval: 23 microsecs
+>>>> DecoderRun 3 for 25% packet loss; 40 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 207 microsecs; dec object creation: 38 microsecs; dec populate: 156 microsecs; dec buffer retrieval: 12 microsecs
+>>>> DecoderRun 4 for 35% packet loss; 35 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 203 microsecs; dec object creation: 27 microsecs; dec populate: 162 microsecs; dec buffer retrieval: 13 microsecs
+>> EncoderRun 2
+Encode timelines: excl obj creation: 33 microsecs, incl obj creation: 242 microsecs
+>>>> DecoderRun 0 for 2% packet loss; 52 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 240 microsecs; dec object creation: 28 microsecs; dec populate: 187 microsecs; dec buffer retrieval: 24 microsecs
+>>>> DecoderRun 1 for 8% packet loss; 49 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 229 microsecs; dec object creation: 42 microsecs; dec populate: 169 microsecs; dec buffer retrieval: 17 microsecs
+>>>> DecoderRun 2 for 14% packet loss; 46 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 217 microsecs; dec object creation: 28 microsecs; dec populate: 170 microsecs; dec buffer retrieval: 17 microsecs
+>>>> DecoderRun 3 for 25% packet loss; 40 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 256 microsecs; dec object creation: 49 microsecs; dec populate: 188 microsecs; dec buffer retrieval: 19 microsecs
+>>>> DecoderRun 4 for 35% packet loss; 35 of 54 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 236 microsecs; dec object creation: 51 microsecs; dec populate: 168 microsecs; dec buffer retrieval: 15 microsecs
+--------------------------------------------------------- 
+---------------------- BENCHMARK ------------------------ 
+Benchmark Messagelen (KB): 1024 with chunksize (KB): 1
+Encoder Runs: 2
+Packet losses per encode: 2% 8% 14% 25% 35% 
+Message integrity prior to run: 144027330
+Redundancy selected: 1.6
+No. of pure message chunks: 1024
+No. of encoded chunks to generate: 1638
+>> EncoderRun 0
+Encode timelines: excl obj creation: 2015 microsecs, incl obj creation: 6004 microsecs
+>>>> DecoderRun 0 for 2% packet loss; 1605 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 5200 microsecs; dec object creation: 31 microsecs; dec populate: 4201 microsecs; dec buffer retrieval: 967 microsecs
+>>>> DecoderRun 1 for 8% packet loss; 1506 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 5232 microsecs; dec object creation: 35 microsecs; dec populate: 4441 microsecs; dec buffer retrieval: 755 microsecs
+>>>> DecoderRun 2 for 14% packet loss; 1408 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 5181 microsecs; dec object creation: 68 microsecs; dec populate: 4499 microsecs; dec buffer retrieval: 612 microsecs
+>>>> DecoderRun 3 for 25% packet loss; 1228 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 4575 microsecs; dec object creation: 40 microsecs; dec populate: 3996 microsecs; dec buffer retrieval: 538 microsecs
+>>>> DecoderRun 4 for 35% packet loss; 1064 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 5571 microsecs; dec object creation: 38 microsecs; dec populate: 4645 microsecs; dec buffer retrieval: 887 microsecs
+>> EncoderRun 1
+Encode timelines: excl obj creation: 1154 microsecs, incl obj creation: 5143 microsecs
+>>>> DecoderRun 0 for 2% packet loss; 1605 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 4761 microsecs; dec object creation: 60 microsecs; dec populate: 4040 microsecs; dec buffer retrieval: 661 microsecs
+>>>> DecoderRun 1 for 8% packet loss; 1506 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 5259 microsecs; dec object creation: 38 microsecs; dec populate: 4482 microsecs; dec buffer retrieval: 737 microsecs
+>>>> DecoderRun 2 for 14% packet loss; 1408 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 4823 microsecs; dec object creation: 50 microsecs; dec populate: 4173 microsecs; dec buffer retrieval: 598 microsecs
+>>>> DecoderRun 3 for 25% packet loss; 1228 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 4891 microsecs; dec object creation: 35 microsecs; dec populate: 4188 microsecs; dec buffer retrieval: 667 microsecs
+>>>> DecoderRun 4 for 35% packet loss; 1064 of 1638 recieved Message recovery integrity verified!
+     Decode timelines: end to end: 5530 microsecs; dec object creation: 38 microsecs; dec populate: 4821 microsecs; dec buffer retrieval: 670 microsecs
+--------------------------------------------------------- 
